@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta  charset="UTF-8">
+        <meta name="viewport" content="'width=device-width, intial-scale=1.0"> 
+        <title>Countdown/Stopwatch</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <script src="time.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="timer-wrapper">
+                <div class="timer-section">
+                    <h2>Countdown</h2>
+                    <div id="countdown-display" class="display">00:00:00:00</div>
+                    <button id="edit-btn" class="secondary-btn icon-btn" data-tooltip="Edit Time">
+                        <i class="fa-solid fa-pen"></i>
+                    </button>
+                </div>
+                <div class="timer-section">
+                    <h2>Stopwatch</h2>
+                    <div id="stopwatch-display" class="display">00:00:00:00</div>
+                </div>
+                <div class="controls">
+                    <button id="play-pause-btn" class="primary-btn icon-btn" data-tooltip="Play">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button id="reset-btn" class="primary-btn icon-btn" data-tooltip="Reset">
+                        <i class="fa-solid fa-rotate-left"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
