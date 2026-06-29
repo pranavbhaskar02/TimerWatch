@@ -10,10 +10,10 @@ body {
     background-color: #0f172a;
     color: #f0fafc;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     min-height: 100vh;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
 }
 
 .container{
@@ -24,6 +24,7 @@ body {
     max-width: 900px;
     width: 100%;
     text-align: center;
+    margin: 40px auto;
 }
 
 /*.timer-wrapper {
@@ -171,6 +172,8 @@ button{
     border-top: 1px solid #333333;
     width: 100%;
     box-sizing: border-box;
+    margin-top: auto;
+    justify-content: space-between;
 }
 
 .footer-container{
