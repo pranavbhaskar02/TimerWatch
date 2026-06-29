@@ -160,3 +160,29 @@ button{
     background-color: #ef4444;
     box-shadow: 0 ;
 }
+
+.copyright-footer{
+    background-color: #1a1a1a;
+    color: #b3b3b3;
+    padding: 15px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #333333;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 760px){
+    .footer-container{
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        padding: 0 0.5rem;
+    }
+}
